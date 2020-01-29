@@ -363,7 +363,7 @@ div.post-stats ul li a span {
   width: 40px;
   color: #7c7785;
 }
-.search-icon:focus-within {
+.search-icon i {
   color: rgba(29, 161, 242, 1);
 }
 
