@@ -337,6 +337,10 @@ div.post-stats ul li a span {
   font-size: 25px;
   padding: 0 10px 0 10px;
 }
+.text-cont:focus-within {
+  border: 1px solid rgb(29, 161, 242);
+  background-color: #fff;
+}
 
 .text-cont input[type="text"] {
   width: 210px;
@@ -358,6 +362,9 @@ div.post-stats ul li a span {
   display: inline-block;
   width: 40px;
   color: #7c7785;
+}
+.search-icon:focus-within {
+  color: rgba(29, 161, 242, 1);
 }
 
 .header > div:first-child {
