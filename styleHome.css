@@ -69,6 +69,17 @@ i.fa-circle {
   font-weight: 700;
   padding: 10px 16px;
 }
+.left ul li > span.icon i {
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+.left ul li > span.icon i:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  padding: 10px;
+  border-radius: 50px;
+}
 .left ul li a:hover {
   text-decoration: none;
   text-transform: capitalize;
@@ -82,7 +93,7 @@ i.fa-circle {
   font-size: 25px;
 }
 
-.left ul li a button {
+.left ul li button {
   font-weight: 700;
   font-size: 15px;
   text-transform: capitalize;
@@ -92,6 +103,10 @@ i.fa-circle {
   border-radius: 25px;
   color: #fff;
   background-color: rgb(29, 161, 242);
+}
+.left ul li button:hover {
+  background-color: rgb(40, 132, 189);
+  cursor: pointer;
 }
 
 .left ul li a span.icon {
