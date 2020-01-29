@@ -83,7 +83,7 @@
             <div class="input-content">
               <span><i class="fas fa-user-circle"></i></span>
               <div >
-                <div id="textarea" contenteditable>What's happening?</div>
+                <div id="textarea" contentEditable=true data-text="What's happening?"></div>
               </div>
             </div>
             <div class="input-others">
@@ -507,16 +507,5 @@
         <span>&#169; 2020 Twitter, Inc.</span>
       </div>
     </div>
-    <script>
-      const textarea = document.querySelector("#textarea");
-      document.addEventListener('click', function(e){
-        if(e.target != textarea){
-          textarea.innerHTML = 'What\'s happening?';
-        }else{
-          textarea.innerHTML = '';
-          textarea.style.color = '#000';
-        }
-      });
-    </script>
   </body>
 </html>
